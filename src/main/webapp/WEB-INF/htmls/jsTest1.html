@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>将js-脚本语言捡起来</title>
+    <script>
+        function test() {
+            alert("js function alert")
+        }
+    </script>
+    <script type="text/javascript" src="..\javascript\jsTest1.js">
+    </script>
+</head>
+<body>
+<input type="button" value="测试" onclick="test()">
+<input type="button" value="测试out HTML" onclick="test2()">
+<a href="javascript:void(0);" onclick="test()">超链接样式的js</a>
+
+<script>
+    // alert("标签script可在任意位置，可直接执行 ")
+</script>
+
+</body>
+</html>
